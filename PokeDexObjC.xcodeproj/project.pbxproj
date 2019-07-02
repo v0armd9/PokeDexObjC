@@ -13,6 +13,7 @@
 		2C4F744022CBB5EC00EEA54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F743F22CBB5EC00EEA54C /* Assets.xcassets */; };
 		2C4F744322CBB5EC00EEA54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4F744122CBB5EC00EEA54C /* LaunchScreen.storyboard */; };
 		2C4F744622CBB5EC00EEA54C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F744522CBB5EC00EEA54C /* main.m */; };
+		2C4F745422CBB80200EEA54C /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4F745322CBB80200EEA54C /* Pokemon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2C4F744222CBB5EC00EEA54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C4F744422CBB5EC00EEA54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4F744522CBB5EC00EEA54C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C4F745222CBB80200EEA54C /* Pokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
+		2C4F745322CBB80200EEA54C /* Pokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		2C4F744D22CBB65200EEA54C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2C4F745222CBB80200EEA54C /* Pokemon.h */,
+				2C4F745322CBB80200EEA54C /* Pokemon.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4F743B22CBB5EA00EEA54C /* ViewController.m in Sources */,
+				2C4F745422CBB80200EEA54C /* Pokemon.m in Sources */,
 				2C4F744622CBB5EC00EEA54C /* main.m in Sources */,
 				2C4F743822CBB5EA00EEA54C /* AppDelegate.m in Sources */,
 			);
